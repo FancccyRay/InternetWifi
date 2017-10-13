@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WLAN" />
+
+    <Button
+        android:id="@+id/btnmdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Data" />
+
+    <Button
+        android:id="@+id/btnEthernet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ethernet" />
+</LinearLayout>
